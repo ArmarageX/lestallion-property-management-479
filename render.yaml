@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: lestallion-property-management-479
+    runtime: static
+    staticPublishPath: public
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
